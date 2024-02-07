@@ -1,9 +1,10 @@
 #grid {
-    max-width: 880px;
+    max-width: 800px;
 }
 
 .cell {
+    border: 1px solid rgb(21, 21, 21);
     width: 80px;
     height: 80px;
-    background-color: white;
+    background-color: rgb(65, 65, 65);
 }

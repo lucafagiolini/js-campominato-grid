@@ -3,8 +3,17 @@
 }
 
 .cell {
-    border: 1px solid rgb(21, 21, 21);
+    /* dilsplay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* size */
     width: 80px;
     height: 80px;
+    /* aesthetics */
+    text-align: center;
+    color: white;
     background-color: rgb(65, 65, 65);
+    border: 1px solid rgb(21, 21, 21);
+
 }

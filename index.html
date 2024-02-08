@@ -27,7 +27,26 @@
 
 <body data-bs-theme="dark">
     <main>
+
+        <div class="container d-flex justify-content-center align-items-center pt-5">
+            <div>
+                <button id="start-btn" class="btn btn-light text-uppercase" ype="button">start game</button>
+
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    difficulty
+                </button>
+                <ul id="difficulty-selection" class="dropdown-menu dropdown-menu-dark">
+                    <li><a id="easy-diff" class="dropdown-item" href="#" value="100">easy</a></li>
+                    <li><a id="medium-diff" class="dropdown-item" href="#" value="81">medium</a></li>
+                    <li><a id="hard-diff" class="dropdown-item" href="#" value="49">hard</a></li>
+                </ul>
+            </div>
+        </div>
         <div class="container d-flex justify-content-center">
+
 
             <div id="grid" class=" d-flex row flex-wrap mt-5">
 
